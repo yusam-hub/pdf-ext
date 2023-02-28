@@ -1,0 +1,28 @@
+{
+    "name": "yusam-hub/pdf-ext",
+    "description": "yusam-hub/pdf-ext",
+    "type": "package",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4|^8.0|^8.1|^8.2",
+        "ext-zlib": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "YusamHub\\PdfExt\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YusamHub\\PdfExt\\Tests\\": "tests/"
+        },
+        "files": [
+        ]
+    }
+}
